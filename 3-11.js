@@ -15,7 +15,7 @@ Object.defineProperty(user, "id", {
 });
 
 user.getInfo = function () {
-    return `User ${this.name} has ${this.articles.lenght} articles`;
+    return `User ${this.name} has ${this.articles.length} articles`;
 };
 
 console.log(user);
